@@ -76,6 +76,7 @@ a{
     background-color: #1f2937;
 }
 .hero-section{
+    width: 500px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -91,7 +92,19 @@ a{
     font-size: 18px;
     line-height: 1.5;
 }
+.sign-up{
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    cursor: pointer;
+}
 .hero-image{
-    padding: 100px;
+    width: 500px;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
